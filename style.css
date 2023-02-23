@@ -1,0 +1,26 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    line-height: 1.2em;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+    margin: inherit;
+    padding: inherit;
+}
+
+input, textarea {
+    font-family: Consolas, 'Courier New', Courier, monospace;
+    padding: 0.25em;
+}
+
+textarea {
+    width: 100%;
+}
